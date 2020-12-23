@@ -1,0 +1,174 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.mode_body{
+	font-family: Arial;
+	margin:0;
+	background-color:rgb(225,225,225)
+}
+
+@font-face{
+	font-family:HeroldReklameschrift;
+	src:url('fonts/herold-reklameschrift.ttf')
+}
+
+.mode_h1{
+	font-family:HeroldReklameschrift;
+	font-size:300%;
+	color:black;
+	text-transform:uppercase
+}
+
+.mode_header{
+	color : black;
+	background-image:url('images/fond.jpg');
+	background-size:contain;
+	text-align : center;
+	border:1px solid white
+}
+
+.mode_nav{
+	max-width : 1100px;
+	margin : auto
+}
+
+.mode_header nav a{
+	font-family:HeroldReklameschrift;
+	color : black;
+	font-size:30px;
+	text-decoration:none
+}
+
+.mode_ul{
+	padding:0
+}
+
+.mode_ul li{
+	text-align:center;
+	display : flex;
+	flex-direction:column;
+	width :30%;
+	padding:15px;
+	margin:auto;
+	line-height: 20%
+}
+
+
+.mode_header nav ul li a:hover{
+	text-decoration:underline;
+}
+
+.mode_intro{
+	text-align:center;
+	background-image:linear-gradient(to right bottom, green, blue);
+	margin:auto;
+	width:80%;
+	margin-top:20px;
+	margin-bottom:20px;
+	border:2px solid black;
+	box-shadow:5px 5px 5px white;
+	color:white;
+}
+
+.mode_section{
+	padding-top:10px;
+	padding-bottom:10px;
+	background-color:grey;
+	width:95%;
+	background-image:linear-gradient(to right bottom, green, blue);
+	margin:auto
+}
+
+.mode_article h2{
+	font-family:HeroldReklameschrift;
+	font-size:300%;
+	color:black;
+	width:50%;
+	margin:auto
+}
+
+.mode_texte a{
+	text-decoration:underline;
+	color:blue
+}
+
+.mode_imagedébut{
+	border-radius:50%;
+	height:50px;
+	margin-top:15px
+}
+
+.mode_article{
+	display:block;
+	width:90%;
+	text-align:center;
+	margin:auto;
+	padding-top:20px;
+	padding-bottom:20px;
+	color:white;
+	background: radial-gradient(#F45D38, #121212);
+	margin-top:20px;
+	margin-bottom:20px;
+	border:2px dotted white
+}
+
+.mode_texte{
+	margin-left:10%;
+	margin-right:10%;
+	text-align:justify;
+	text-shadow:5px 5px 5px black
+}
+
+.mode_imagefin{
+	height:125px;
+	border:1px solid white;
+	margin-top:20px;
+	margin-left:20px;
+	margin-right:20px;
+	border-radius:25%
+}
+
+.mode_bouton{
+	position:fixed;
+	bottom:20px;
+	right:20px;
+	border:2px solid red;
+	background-color:rgba(245,249,0,0.5);
+	padding:10px;
+	color:black;
+	font-weight:bold
+}
+
+.mode_bouton:hover{
+	background-color:rgba(6,253,39,0.5)
+}
+
+.mode_footer{
+	background-image:url('images/fond.jpg');
+	background-size:contain;
+	border:1px solid white;
+	text-align:center;
+	font-size:14px
+}
+
+.mode_footer h2{
+	color:black;
+	text-decoration:underline
+}
+
+.mode_footer a{
+	text-decoration:none
+}
+
+.mode_footer a:link{
+	color:blue
+}
+
+.mode_footer a:visited{
+	color:green
+}
+
+.mode_footer p{
+	color:black
+}
